@@ -1,0 +1,27 @@
+{
+  "name": "il-regno-di-wagham-enne",
+  "title": "Il Regno di Wagham - Enne",
+  "description": "Tutte le cose belle Homebrew",
+  "author": "R20Converter",
+  "version": "1.0.0",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "packs": [
+    {
+      "name": "actors",
+      "label": "Actors (Il Regno di Wagham - Enne)",
+      "path": "packs/actors.db",
+      "module": "il-regno-di-wagham-enne",
+      "entity": "Actor",
+      "type": "Actor"
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes (Il Regno di Wagham - Enne)",
+      "path": "packs/scenes.db",
+      "module": "il-regno-di-wagham-enne",
+      "entity": "Scene",
+      "type": "Scene"
+    }
+  ]
+}
